@@ -14,7 +14,7 @@ setup(
         'numpy== 1.23.3',
         'scipy==1.10.0',
         'scikit-image==0.19.3',
-        'scikit-learn==1.1.2',
+        'scikit-learn==1.3.2',
         'shapely==1.8.5.post1',
         'opencv-python==4.6.0.66',
         'Pillow==9.3.0',
@@ -22,9 +22,9 @@ setup(
         'PyOpenGL==3.1.6',
         'PyYAML==6.0',
         'requests==2.31.0',
-        'torchserve==0.7.0',
+        'torchserve==0.9.0',
         'tqdm==4.64.1',
         'Flask==2.3.2'
     ],
-    packages=find_packages(),
+    packages=find_packages()
 )
